@@ -8,10 +8,15 @@ Parrot is for **runtime bugs you can't diagnose by reading the code**: race cond
 
 ### Claude Code
 
-Register the marketplace and install the skill:
+**Step 1** — Register the marketplace:
 
 ```
 /plugin marketplace add dengdengyee/parrot-skill
+```
+
+**Step 2** — Install the skill:
+
+```
 /plugin install parrot@parrot-skill
 ```
 
