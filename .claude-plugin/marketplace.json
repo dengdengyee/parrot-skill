@@ -1,0 +1,22 @@
+{
+  "name": "parrot-skill",
+  "owner": {
+    "name": "dengdengyee",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Runtime debugging skill for Claude — instruments code with log calls, collects output via a local server, and uses traces to pinpoint bugs",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "parrot",
+      "description": "Runtime log tracing skill for debugging race conditions, async issues, silent data loss, and other bugs that require runtime observation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/parrot"
+      ]
+    }
+  ]
+}
